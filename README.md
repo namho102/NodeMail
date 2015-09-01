@@ -1,4 +1,4 @@
 # NodeMail
-NodeMailer Ex
+Simple Mail Sender with NodeMailer
 
 
