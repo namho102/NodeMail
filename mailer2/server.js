@@ -41,11 +41,9 @@ app.get('/', function(req, res) {
 });
 
 app.post('/send', function(req, res, next) {
-    // console.log(req.query);
-    // console.log(req.body);
     
     mailOptions = req.body;
-    console.log(mailOptions);
+    //console.log(mailOptions);
 
     smtpTransport.sendMail(mailOptions, function(error, response) {
         if (error) {
