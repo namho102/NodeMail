@@ -1,7 +1,7 @@
 var  app = angular.module('mailer', []);
 
 app.controller('MailController', ['$scope', '$http', function($scope, $http) {
-	$scope.mail = {'from': 'namho102@hotmail.com'};
+	$scope.mail = {'from': 'YOUR EMAIL'};
 
 	$scope.sendMail = function() {
 		// console.log($scope.mail);
